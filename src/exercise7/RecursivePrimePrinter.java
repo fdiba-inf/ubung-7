@@ -16,7 +16,7 @@ public class RecursivePrimePrinter {
         // Implement recursive method
     }
 
-    public static boolean isPrime() {
+    public static boolean isPrime(int n) {
         // Implement method
         return false;
     }
