@@ -1,44 +1,8 @@
-# Übung 6
+# Übung 7
 Quellcode der Vorlesung: https://github.com/fdiba-inf/vorlesung
 ## Repl.it öffnen
 Bevor Sie die Taste _"Work in Repl.it"_ klicken, öffnen Sie https://repl.it/auth/github/get, um sicherzustellen, dass Sie in repl.it angemeldet sind.
-## Aufgabe 1. Komplexität in O-Notation
-Zu welchen Komplexitätsklassen gehören die folgenden Anweisungen in Abhängigkeit von n?
-``` 
-for (int i = 1; i < n; i = i * 2) {
-    System.out.println(i);
-}
-``` 
-``` 
-for (int i = 1; i < n; i++) {
-    System.out.println(i);
-}
-``` 
-``` 
-for (int i = 1; i < n; i++) {
-    for(int j = 1; j < n; j = j * 2) {
-        System.out.println(i + j);
-    }
-}
-``` 
-``` 
-for (int i = 1; i < Math.pow(2, n); i++) {
-    System.out.println(i);
-}
-``` 
-``` 
-for (int i = 1; i < n; i++) {
-    for(int j = 1; j < n; j++) {
-        System.out.println(i + j);
-    }
-}
-``` 
-``` 
-for (int i = 1; i < 1000; i++) {
-    System.out.println(n);
-}
-``` 
-## Aufgabe 2. Palindrom
+## Aufgabe 1. Palindrom
 Ändern Sie die Klasse _Palindrome_ im Paket _exercise6_. 
 Der Benutzer soll eine Zahl eingeben.
 Zuerst wird überprüft, ob die Zahl großer Null ist (benutzen Sie das Schlüsselwort _assert_).
